@@ -29,4 +29,10 @@ describe("Palindrome Coersion", () => {
     const expected = { flips: 9, output: 7979731331379797, input: 34985734 };
     expect(runSolution(34985734)).toEqual(expected);
   });
+
+  it("detects Lychrel numbers", async () => {
+    const lychrelExample = 196;
+    const expected = { flips: 0, output: 0, input: lychrelExample };
+    expect(runSolution(lychrelExample)).toEqual(expected);
+  });
 });
