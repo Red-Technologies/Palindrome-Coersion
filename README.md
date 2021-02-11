@@ -19,3 +19,20 @@ For example, given the following number: `1232`, if we add its inverse `1232 + 2
 ### WARNING
 
 Beware the [Lychrel numbers](https://en.wikipedia.org/wiki/Lychrel_number)! These are natural numbers that cannot form a palindrome through this type of inverse coersion.
+
+### How to start
+
+Fork the repo and in the project directory run:
+
+```
+yarn install
+yarn start
+```
+
+This project doesn't require a frontend, but feel free to use one and the console if you prefer. Just know that the unit tests don't check for this. When you're ready to test, run:
+
+```
+yarn test
+```
+
+And feel free to take a look at the tests in `palindromeCoersion.test.tsx` to improve them if you like.
