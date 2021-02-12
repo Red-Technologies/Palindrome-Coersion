@@ -2,7 +2,7 @@
 
 Welcome to your first code challenge at Red Technologies! Your objective is to create a solution that fulfills the requirements below, which includes passing all of the unit tests that come with this repo.
 
-## Requirements
+### Requirements
 
 Given a number, you must coerse it into a palindrome by repeatedly adding its inverse. Your logic should output the following object structure:
 
@@ -14,7 +14,7 @@ interface IOutput {
 }
 ```
 
-For example, given the following number: `1232`, if we add its inverse `1232 + 2321` we get `3553` which is a palindrome. The amount of flips required in this case is `1`.
+For example, given the following number: `1232`, if we add its inverse `1232 + 2321` we get `3553` which is a palindrome. The amount of flips required in this case is `1`. Make sure your output is returned in the existing function here: `src/codeChallenge/palindromeCoersion.tsx` as the unit tests are importing this, expecting a result.
 
 ### WARNING
 
